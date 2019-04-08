@@ -14,8 +14,12 @@
     "bcryptjs": "^2.4.3",
     "body-parser": "^1.18.3",
     "express": "^4.16.4",
+    "fs": "0.0.1-security",
     "jsonwebtoken": "^8.5.1",
-    "mongoose": "^5.4.22"
+    "mongoose": "^5.4.22",
+    "nodemailer": "^6.1.0",
+    "nodemailer-express-handlebars": "^3.0.0",
+    "path": "^0.12.7"
   },
   "devDependencies": {
     "nodemon": "^1.18.10"

@@ -1,0 +1,21 @@
+No 3o commit...
+
+* Iniciou-se passando as pastas de controllers, middlewares e models para dentro de uma nova pasta chamada
+app. Todos os arquivos mais utilizados pelo app foram para dentro desta pasta.
+
+* Apos isso, dentro do controllers foi criado um arquivo chamado index, pois o index principal estava dando
+um require para todos os controller existentes. Desta forma, tendo um index dentro do controllers, o
+index principal recebera todos os controllers dando apenas um require.
+
+* Adicionado a lib fs (Trabalha com o File System do node) e o path (trabalha com os caminhos das pastas)
+
+* Apos realizar o foreach de todos os arquivos de dentro do controller dentro da pasta controller,
+tirou-se o require de todos os arquivos relacionados ao controller no index principal da aplicação
+e deu-se um require apenas no index do controller lá no index principal...
+
+* Apos isso foi criado uma conta no mailtrap para gerenciamento de emails.
+Foi criado um apasta chamada modules para criacao de modulos de configuração que nao sao reponsaveis
+diretamente pelo sistema, e sim com servicos auxiliares como email
+
+*Colocado dois campos na model de user, um para guardar o token de novo cadastro de senha
+e outro campo para expiracao de tempo de validade deste novo token
